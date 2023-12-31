@@ -1,11 +1,7 @@
-import { useState } from "react";
-
 import "./App.scss";
 import { TextArea } from "./components";
 
 function App() {
-  const [count, setCount] = useState(0);
-
   return (
     <>
       <TextArea />
